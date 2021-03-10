@@ -1,0 +1,28 @@
+//Импорт стиля Контейнера сайта
+@import 'grid';
+
+// Стиль для Интерфейса
+@import 'interface';
+
+// Стили для Header
+@import 'sections/header';
+
+//Стили для Welcome
+@import 'sections/welcome';
+
+// Стили секции Bio
+@import 'sections/bio';
+
+//Стили блока Work-process
+@import 'sections/worker';
+
+//Стили блока Experience
+@import 'sections/experience';
+
+//Стили блока Feedback
+@import 'sections/feedback';
+
+@import 'sections/footer';
+
+//Импорт Адаптива для секций
+@import 'adaptive';

@@ -1,0 +1,26 @@
+
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 50px 0;
+    z-index: 5;
+    transition: 150ms ease-in-out;
+    &__logo {
+        font-family: 'raleway', sans-serif;
+        font-size: 36px;
+        color: #fff;
+        opacity: 0.8;
+        font-weight: 600;
+    }
+
+}
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.scroll {
+    background: linear-gradient(9deg, rgba(48,105,125,0.95) 0%, rgba(65,105,125,0.95) 48%, rgba(108,106,123,0.95) 100%);
+    padding: 5px 0;
+}

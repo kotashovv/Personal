@@ -1,0 +1,69 @@
+.feedback {
+    background-image: url(../img/welcome-bgc.jpg);
+    padding: 80px 0;
+    &__adress {
+    }
+
+    &__site {
+    }
+}
+.feedback-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+.feedback-adress {
+
+    &__title {
+        text-align: left;
+
+    }
+}
+.feedback-site {
+
+    &__title {
+        text-align: left;
+
+    }
+}
+
+.feed-card {
+    width: 578px;
+    padding: 60px 40px;
+    background-image: linear-gradient(45deg, rgba(93, 35, 96, 0.3) 0%, rgba(158, 53, 105, 0.3) 50%, rgba(93, 35, 96, 0.3) 100%);
+    margin: 10px 0;
+}
+.feed-text {
+    opacity: 0.7;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+}
+
+.feed-title {
+    color: #ffffff;
+    font-family: 'raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+.card-adress {
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all 500ms ease-in-out;
+    &._active {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.card-social {
+    transform: translateX(50%);
+    opacity: 0;
+    transition: all 500ms ease-in-out;
+    &._active {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

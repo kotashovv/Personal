@@ -1,0 +1,144 @@
+// Адаптив Шапки 
+
+@media (max-width:769px) {
+    .header {
+        padding: 5px 0;
+        &__logo { 
+            font-size: 24px;
+        }
+    }
+}
+
+@media (max-width:425px) {
+    .header-wrap { 
+        padding: 15px 0;
+    }
+}
+
+// Адаптив Секции Welcome
+
+@media (max-width:540px) {
+    .welcome-text {
+        &__title {
+            font-size: 32px;
+        }
+    }
+    .text-welcome {
+        font-size: 18px;
+    }
+}
+
+// Адаптив Bio
+
+@media (max-width:1023px) {
+    .bio {
+
+        &__foto {
+            display: none;
+        }
+        &__title {
+            text-align: center;
+        }
+    
+        &__paragraph {
+            text-align: center;
+        }
+    }
+    .bio-wrap {
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:768px) {
+    .bio {
+
+        &__title {
+            margin-bottom: 15px;
+        }
+        &__paragraph {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+//Адаптив Worker 
+@media (max-width:1188px) {
+    .work-process {
+        &__cards {
+            flex-wrap: wrap;
+            max-width: 820px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .work-process {
+        padding: 30px;
+        &__title {
+            margin-bottom: 15px;
+        }
+        &__description {
+            margin-bottom: 25px;
+        }
+    }
+}
+
+@media (max-width:425px) {
+    .work-process {
+        &__title {
+            font-size: 24px;
+        }
+        &__description {
+            font-size: 14px;
+        }
+        &__card:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .card-title {
+        font-size: 12px;
+    }
+}
+
+// Адаптив для Experience 
+@media (max-width:768px) {
+    .experience {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width:425px) {
+    .experience {
+        &__title {
+            font-size: 24px;
+        }
+    }
+}
+
+//Адаптив блока Feedback 
+@media (max-width:620px) {
+    .feed-card {
+        width: 100%;
+        padding: 40px 20px;
+        margin: 10px;
+    }
+    .feedback {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width:425px) {
+    .feed-title {
+        font-size: 18px;
+    }
+    .feed-text {
+        font-size: 14px;
+    }
+}
+
+//Адаптив Footer
+@media (max-width:768px) {
+    .footer {
+        padding: 20px 0;
+    }
+}
