@@ -563,6 +563,13 @@ body {
   font-size: 16px;
   font-family: 'roboto', sans-serif;
 }
+.feedback-link {
+  opacity: 0.7;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+}
 
 .feed-title {
   color: #ffffff;
