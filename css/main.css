@@ -563,6 +563,12 @@ body {
   font-size: 16px;
   font-family: 'roboto', sans-serif;
 }
+.feed-title {
+  color: #ffffff;
+  font-family: 'raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
 .feedback-link {
   opacity: 0.7;
   color: #ffffff;
@@ -570,14 +576,6 @@ body {
   font-size: 16px;
   text-decoration: none;
 }
-
-.feed-title {
-  color: #ffffff;
-  font-family: 'raleway', sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-}
-
 .card-adress {
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
