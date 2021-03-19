@@ -11,7 +11,7 @@
 
 @media (max-width:425px) {
     .header-wrap { 
-        padding: 15px 0;
+        padding: 5px 0;
     }
 }
 
@@ -141,4 +141,17 @@
     .footer {
         padding: 20px 0;
     }
+}
+
+@media (max-width:646px) {
+    .menu {
+        padding: 10px;
+
+		&__link {
+            margin-bottom: 30px;
+            font-size: 18px;
+            line-height: 20px;
+		}
+    }
+
 }
