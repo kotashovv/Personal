@@ -19,7 +19,7 @@
             <div class="container">
                 <div class="header-wrap">
                     <div class="header__logo">
-                        <span><strong>Kotashovv</strong></span>
+                        <span><a href="#welcome-anchor"><strong>Kotashovv</strong></a></span>
                     </div>
                     <div class="header__menu-icon">
                         <span class="burger-line"></span>
@@ -28,8 +28,19 @@
                     </div>
                 </div>
             </div>
+            <div class="menu">
+                <div class="menu-wrap">
+                    <ul class="menu__list">
+                        <li class="menu__link"><a class="link-from-menu" href="#bio-anchor">Обо мне</a></li>
+                        <li class="menu__link"><a class="link-from-menu" href="#work-process-anchor">Как я работаю</a></li>
+                        <li class="menu__link"><a class="link-from-menu" href="#experience-anchor">Мои выполненные работы</a></li>
+                        <li class="menu__link"><a class="link-from-menu" href="#feedback-anchor">Как со мной связаться</a></li>
+                    </ul>
+                    <div class="menu__close-button">X</div>
+                </div>
+            </div>
         </header>
-        <main class="welcome">
+        <main id="welcome-anchor" class="welcome">
             <div class="container">
                 <div class="welcome-wrap">
                     <div class="welcome__text">
@@ -40,11 +51,11 @@
                 </div>
             </div>
         </main>
-        <section class="bio">
+        <section id="bio-anchor" class="bio">
             <div class="container">
                 <div class="bio-wrap">
                     <div class="bio__foto _anim-items _anim-no-hide">
-                        <img class="foto-bio" src="img/person.png" alt="">
+                        <img  class="foto-bio" src="img/person.png" alt="Изображение не загрузилось, или фото слишком красивое">
                     </div>
                     <div class="bio__text _anim-items _anim-no-hide">
                         <h2 class="bio__title title-bio">
@@ -56,12 +67,12 @@
                             <br><br>
                             Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации соответствующий условий активизации. Товарищи! начало повседневной работы по формированию позиции представляет собой интересный эксперимент проверки форм развития.
                         </p>
-                        <a class="bio__button button" target='_blank' href='https://kwork.ru/user/kotashovv'>Найми меня!</a>
+                        <a class="bio__button button" title="Ссылка ведет на профиль KWORK" href='https://kwork.ru/user/kotashovv'>Найми меня!</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="work-process">
+        <section id="work-process-anchor" class="work-process">
             <div class="container">
                 <div class="work-process-wrap">
                     <h2 class="work-process__title">
@@ -71,27 +82,27 @@
                         Разделим его на 4 основных блока
                     </span>
                     <div class="work-process__cards">
-                        <div class="work-process__card card-1 _anim-items _anim-no-hide">
-                            <img class="card-img" src="img/card-monitor.png" alt="">
+                        <div class="work-process__card card-1 _anim-items _anim-no-hide jump">
+                            <img class="card-img" src="img/card-monitor.png" alt="Проблемы с изображением">
                             <span class="card-title">Изучение</span>
                         </div>
-                        <div class="work-process__card card-2 _anim-items _anim-no-hide">
-                            <img class="card-img" src="img/card-magic.png" alt="">
+                        <div class="work-process__card card-2 _anim-items _anim-no-hide jump">
+                            <img class="card-img" src="img/card-magic.png" alt="Проблемы с изображением">
                             <span class="card-title">Верстка</span>
                         </div>
-                        <div class="work-process__card card-3 _anim-items _anim-no-hide">
-                            <img class="card-img" src="img/card-params.png" alt="">
+                        <div class="work-process__card card-3 _anim-items _anim-no-hide jump">
+                            <img class="card-img" src="img/card-params.png" alt="Проблемы с изображением">
                             <span class="card-title">Тестирование</span>
                         </div>
-                        <div class="work-process__card card-4 _anim-items _anim-no-hide">
-                            <img class="card-img" src="img/card-airplane.png" alt="">
+                        <div class="work-process__card card-4 _anim-items _anim-no-hide jump">
+                            <img class="card-img" src="img/card-airplane.png" alt="Проблемы с изображением">
                             <span class="card-title">Отправление</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="experience">
+        <section id="experience-anchor" class="experience">
             <div class="container">
                 <div class="experience-wrap">
                     <h2 class="experience__title">
@@ -99,16 +110,16 @@
                     </h2>
                     <div class="experience__cards">
                         <div class="experience__card _anim-items _anim-no-hide ex-card-1">
-                            <a href="https://kotashovv.github.io/Porfolio1/"><img src="img/Waxom.jpg" target='_blank' alt=""></a>
+                            <a href="#"><img src="img/Waxom.jpg" alt="Здесь был пример моей работы"></a>
                         </div>
                         <div class="experience__card _anim-items _anim-no-hide ex-card-2">
-                            <a href="https://kotashovv.github.io/portfolio02/"><img src="img/seascreen.jpg" target='_blank' alt=""></a>
+                            <a href="#"><img src="img/seascreen.jpg" alt="Здесь был пример моей работы"></a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="feedback">
+        <section id="feedback-anchor" class="feedback">
             <div class="container">
                 <div class="feedback-wrap">
                     <div class="feedback__adress feed-card card-adress _anim-items _anim-no-hide">
@@ -124,8 +135,8 @@
                             Связь
                         </div>
                         <span class="feedback-site__description feed-text">
-                            <a class='feedback-link' href='https://vk.com/kotashovv'> Профиль вк: vk.com/kotashovv </a> <br>
-                            <a class='feedback-link' href='mailto:kotashov03@gmail.com'>Почта: kotashov03@gmail.com </a>
+                            <a class="feed-link" href="http://vk.com/kotashovv" target="_blank" rel="noopener noreferrer"> Профиль вк: vk.com/kotashovv</a><br>
+                            <a class="feed-link" href="mailto:kotashov03@gmail.com"> Почта: kotashov03@gmail.com</a>
                         </span>
                     </div>
                 </div>
